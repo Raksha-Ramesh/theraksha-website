@@ -106,65 +106,62 @@ export default function HomePage() {
             </blockquote>
           </Card>
         </div>
-{/* Weather/Status Widget */}
-<Card className="newspaper-border p-6">
-            <h3 className="newspaper-headline text-lg mb-4">TODAY'S FORECAST</h3>
-            <div className="newspaper-divider mb-4"></div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="flex items-start gap-3 rounded-md border border-border/50 bg-background/40 p-3">
-                <TrendingUp className="w-5 h-5 text-muted-foreground mt-0.5" />
-                <div className="min-w-0">
-                  <p className="text-[11px] uppercase tracking-wide text-muted-foreground">Motivation Level</p>
-                  <p className="font-semibold text-foreground">Sky-high</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3 rounded-md border border-border/50 bg-background/40 p-3">
-                <Coffee className="w-5 h-5 text-muted-foreground mt-0.5" />
-                <div className="min-w-0">
-                  <p className="text-[11px] uppercase tracking-wide text-muted-foreground">Coffee Status</p>
-                  <p className="font-semibold text-foreground">Fully Stocked</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3 rounded-md border border-border/50 bg-background/40 p-3">
-                <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5" />
-                <div className="min-w-0">
-                  <p className="text-[11px] uppercase tracking-wide text-muted-foreground">Availability</p>
-                  <p className="font-semibold text-green-600">Actively Looking</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3 rounded-md border border-border/50 bg-background/40 p-3">
-                <CloudLightning className="w-5 h-5 text-blue-600 mt-0.5" />
-                <div className="min-w-0">
-                  <p className="text-[11px] uppercase tracking-wide text-muted-foreground">Curiosity</p>
-                  <p className="font-semibold text-blue-600">Free-flowing</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3 rounded-md border border-border/50 bg-background/40 p-3 sm:col-span-2">
-                <BookOpen className="w-5 h-5 text-muted-foreground mt-0.5" />
-                <div className="min-w-0">
-                  <p className="text-[11px] uppercase tracking-wide text-muted-foreground">Current Read</p>
-                  <p className="font-semibold text-foreground">Midnight's Children by Salman Rushdie</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3 rounded-md border border-border/50 bg-background/40 p-3 sm:col-span-2">
-                <Music className="w-5 h-5 text-muted-foreground mt-0.5" />
-                <div className="min-w-0">
-                  <p className="text-[11px] uppercase tracking-wide text-muted-foreground">Current Favorite Song</p>
-                  <p className="font-semibold text-foreground">Daises by Justin Bieber</p>
-                </div>
+        {/* Weather/Status Widget */}
+        <Card className="newspaper-border p-6">
+          <h3 className="newspaper-headline text-lg mb-4">TODAY'S FORECAST</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="flex items-start gap-3 rounded-md border border-border/50 bg-background/40 p-3">
+              <TrendingUp className="w-5 h-5 text-muted-foreground mt-0.5" />
+              <div className="min-w-0">
+                <p className="text-[11px] uppercase tracking-wide text-muted-foreground">Motivation Level</p>
+                <p className="font-semibold text-foreground">Sky-high</p>
               </div>
             </div>
-          </Card>
-        {/* Sidebar */}
-        <div className="space-y-6">
-          {/* Social Links */}
-          <Card className="newspaper-border p-6">
+
+            <div className="flex items-start gap-3 rounded-md border border-border/50 bg-background/40 p-3">
+              <Coffee className="w-5 h-5 text-muted-foreground mt-0.5" />
+              <div className="min-w-0">
+                <p className="text-[11px] uppercase tracking-wide text-muted-foreground">Coffee Status</p>
+                <p className="font-semibold text-foreground">Fully Stocked</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-3 rounded-md border border-border/50 bg-background/40 p-3">
+              <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5" />
+              <div className="min-w-0">
+                <p className="text-[11px] uppercase tracking-wide text-muted-foreground">Availability</p>
+                <p className="font-semibold text-green-600">Actively Looking</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3 rounded-md border border-border/50 bg-background/40 p-3">
+              <CloudLightning className="w-5 h-5 text-blue-600 mt-0.5" />
+              <div className="min-w-0">
+                <p className="text-[11px] uppercase tracking-wide text-muted-foreground">Curiosity</p>
+                <p className="font-semibold text-blue-600">Free-flowing</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-3 rounded-md border border-border/50 bg-background/40 p-3 sm:col-span-2">
+              <BookOpen className="w-5 h-5 text-muted-foreground mt-0.5" />
+              <div className="min-w-0">
+                <p className="text-[11px] uppercase tracking-wide text-muted-foreground">Current Read</p>
+                <p className="font-semibold text-foreground">Midnight's Children by Salman Rushdie</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-3 rounded-md border border-border/50 bg-background/40 p-3 sm:col-span-2">
+              <Music className="w-5 h-5 text-muted-foreground mt-0.5" />
+              <div className="min-w-0">
+                <p className="text-[11px] uppercase tracking-wide text-muted-foreground">Current Favorite Song</p>
+                <p className="font-semibold text-foreground">Daises by Justin Bieber</p>
+              </div>
+            </div>
+          </div>
+          <div></div>
+          <div></div>
+          <div className="newspaper-divider mb-4"></div>
             <h3 className="newspaper-headline text-xl mb-4">CONNECT WITH THE NEWSROOM</h3>
-            <div className="newspaper-divider mb-4"></div>
+            <div className="flex items-start gap-3 rounded-md border border-border/50 bg-background/40 p-3 sm:col-span-2">
             <div className="space-y-3">
               <Button variant="outline" className="w-full justify-start bg-transparent hover:bg-accent/10" asChild>
                 <a href="https://github.com/Raksha-Ramesh" className="flex items-center gap-3">
@@ -198,12 +195,10 @@ export default function HomePage() {
                 </a>
               </Button>
             </div>
-          </Card>
+          </div>
+        </Card>
 
 
-          
-
-        </div>
       </div>
     </NewspaperLayout>
   )
