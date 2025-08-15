@@ -240,7 +240,7 @@ export default function EditorialPage() {
                 <div className="w-16 h-16 bg-muted rounded-full mx-auto mb-3 flex items-center justify-center">
                   <User className="w-8 h-8 text-muted-foreground" />
                 </div>
-                <h4 className="font-medium">Your Name</h4>
+                <h4 className="font-medium">Raksha Ramesh</h4>
                 <p className="text-sm text-muted-foreground">Editor-in-Chief</p>
               </div>
               <p className="newspaper-body text-sm text-center">

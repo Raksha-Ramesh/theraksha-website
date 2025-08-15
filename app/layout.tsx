@@ -18,7 +18,7 @@ const merriweather = Merriweather({
 })
 
 export const metadata: Metadata = {
-  title: "Your Name - Digital Edition",
+  title: "Raksha Ramesh - Digital Edition",
   description: "Personal website in the style of a digital newspaper",
   generator: "v0.app",
 }

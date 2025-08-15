@@ -13,7 +13,7 @@ export function NewspaperLayout({ children }: NewspaperLayoutProps) {
       <footer className="border-t-2 border-foreground mt-16 py-8">
         <div className="max-w-6xl mx-auto px-4 text-center text-sm text-muted-foreground">
           <div className="newspaper-divider mb-4"></div>
-          <p>© 2025 Your Name. All rights reserved. | Published daily from the comfort of my desk.</p>
+          <p>© 2025 Raksha Ramesh. All rights reserved. | Published daily from the comfort of my desk.</p>
         </div>
       </footer>
     </div>
