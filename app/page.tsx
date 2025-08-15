@@ -98,7 +98,7 @@ export default function HomePage() {
           <Card className="newspaper-border p-6 bg-muted/30">
             <blockquote className="text-center">
               <p className="newspaper-headline text-2xl mb-4">
-                "Compared to the universe, We are very very small. But we are profoundly capable of very very big things."
+                "Compared to the universe, we are very very small. But we are profoundly capable of very very big things."
               </p>
               <footer className="text-sm text-muted-foreground">
                 — Stephen Hawking
