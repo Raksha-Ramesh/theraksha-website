@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   title: "Raksha Ramesh - Digital Edition",
   description: "Personal website in the style of a digital newspaper",
   generator: "v0.app",
+  icons: {
+    icon: "/icon.jpeg",
+    shortcut: "/icon.jpeg",
+    apple: "/icon.jpeg",
+  },
 }
 
 export default function RootLayout({
