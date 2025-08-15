@@ -10,7 +10,7 @@ import Link from "next/link"
 export default function CurriculumVitaePage() {
   const downloadPdf = () => {
     const link = document.createElement('a');
-    link.href = '/curriculum-vitae.pdf';
+    link.href = '/CV.pdf';
     link.download = 'RakshaRamesh_curriculum-vitae.pdf';
     document.body.appendChild(link);
     link.click();
@@ -32,7 +32,7 @@ export default function CurriculumVitaePage() {
               Download PDF Edition
             </Button>
             <Button asChild variant="outline" className="gap-2">
-              <Link href="/curriculum-vitae.pdf" target="_blank" rel="noopener noreferrer">
+              <Link href="/CV.pdf" target="_blank" rel="noopener noreferrer">
                 <BookOpenText className="w-4 h-4" /> View PDF in browser
               </Link>
             </Button>

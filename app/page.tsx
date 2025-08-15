@@ -106,51 +106,8 @@ export default function HomePage() {
             </blockquote>
           </Card>
         </div>
-
-        {/* Sidebar */}
-        <div className="space-y-6">
-          {/* Social Links */}
-          <Card className="newspaper-border p-6">
-            <h3 className="newspaper-headline text-xl mb-4">CONNECT WITH THE NEWSROOM</h3>
-            <div className="newspaper-divider mb-4"></div>
-            <div className="space-y-3">
-              <Button variant="outline" className="w-full justify-start bg-transparent hover:bg-accent/10" asChild>
-                <a href="https://github.com/Raksha-Ramesh" className="flex items-center gap-3">
-                  <Github className="w-4 h-4" />
-                  GitHub Bureau
-                </a>
-              </Button>
-              <Button variant="outline" className="w-full justify-start bg-transparent hover:bg-accent/10" asChild>
-                <a href="https://linkedin.com/in/raksharamesh" className="flex items-center gap-3">
-                  <Linkedin className="w-4 h-4" />
-                  Professional Network
-                </a>
-              </Button>
-              <Button variant="outline" className="w-full justify-start bg-transparent hover:bg-accent/10" asChild>
-                <a href="mailto:rakshar@seas.upenn.edu" className="flex items-center gap-3">
-                  <Mail className="w-4 h-4" />
-                  Press Inquiries
-                </a>
-              </Button>
-              <Button variant="outline" className="w-full justify-start bg-transparent hover:bg-accent/10" asChild>
-                <a href="https://rakshathinksthoughts.substack.com" className="flex items-center gap-3">
-                  <NotebookPenIcon className="w-4 h-4" />
-                  Personal Blog
-                </a>
-              </Button>
-
-              <Button variant="outline" className="w-full justify-start bg-transparent hover:bg-accent/10" asChild>
-                <a href="https://www.youtube.com/@rakshar2171" className="flex items-center gap-3">
-                  <YoutubeIcon className="w-4 h-4" />
-                  Sponsored Jingles
-                </a>
-              </Button>
-            </div>
-          </Card>
-
-
-          {/* Weather/Status Widget */}
-          <Card className="newspaper-border p-6">
+{/* Weather/Status Widget */}
+<Card className="newspaper-border p-6">
             <h3 className="newspaper-headline text-lg mb-4">TODAY'S FORECAST</h3>
             <div className="newspaper-divider mb-4"></div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -202,6 +159,49 @@ export default function HomePage() {
               </div>
             </div>
           </Card>
+        {/* Sidebar */}
+        <div className="space-y-6">
+          {/* Social Links */}
+          <Card className="newspaper-border p-6">
+            <h3 className="newspaper-headline text-xl mb-4">CONNECT WITH THE NEWSROOM</h3>
+            <div className="newspaper-divider mb-4"></div>
+            <div className="space-y-3">
+              <Button variant="outline" className="w-full justify-start bg-transparent hover:bg-accent/10" asChild>
+                <a href="https://github.com/Raksha-Ramesh" className="flex items-center gap-3">
+                  <Github className="w-4 h-4" />
+                  GitHub Bureau
+                </a>
+              </Button>
+              <Button variant="outline" className="w-full justify-start bg-transparent hover:bg-accent/10" asChild>
+                <a href="https://linkedin.com/in/raksharamesh" className="flex items-center gap-3">
+                  <Linkedin className="w-4 h-4" />
+                  Professional Network
+                </a>
+              </Button>
+              <Button variant="outline" className="w-full justify-start bg-transparent hover:bg-accent/10" asChild>
+                <a href="mailto:rakshar@seas.upenn.edu" className="flex items-center gap-3">
+                  <Mail className="w-4 h-4" />
+                  Press Inquiries
+                </a>
+              </Button>
+              <Button variant="outline" className="w-full justify-start bg-transparent hover:bg-accent/10" asChild>
+                <a href="https://rakshathinksthoughts.substack.com" className="flex items-center gap-3">
+                  <NotebookPenIcon className="w-4 h-4" />
+                  Personal Blog
+                </a>
+              </Button>
+
+              <Button variant="outline" className="w-full justify-start bg-transparent hover:bg-accent/10" asChild>
+                <a href="https://www.youtube.com/@rakshar2171" className="flex items-center gap-3">
+                  <YoutubeIcon className="w-4 h-4" />
+                  Sponsored Jingles
+                </a>
+              </Button>
+            </div>
+          </Card>
+
+
+          
 
         </div>
       </div>
