@@ -173,7 +173,7 @@ export default function CurriculumVitaePage() {
               <div className="mb-6">
                 <h2 className="newspaper-headline text-3xl mb-2 flex items-center gap-3">
                   <Lightbulb className="w-8 h-8" />
-                  INNOVATION LABORATORY — AI/ML & NLP
+                  AI/ML & NLP PROJECTS
                 </h2>
                 <p className="text-sm text-muted-foreground">Where ideas come to life</p>
                 <div className="newspaper-divider" />
@@ -220,7 +220,7 @@ export default function CurriculumVitaePage() {
               <div className="mb-6">
                 <h2 className="newspaper-headline text-3xl mb-2 flex items-center gap-3">
                   <Lightbulb className="w-8 h-8" />
-                  DATA SCIENCE & ANALYTICS
+                  DATA SCIENCE & ANALYTICS PROJECTS
                 </h2>
                 <div className="newspaper-divider" />
               </div>
