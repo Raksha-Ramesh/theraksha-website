@@ -170,7 +170,7 @@ export default function HomePage() {
                 </a>
               </Button>
               <Button variant="outline" className="w-full justify-start bg-transparent hover:bg-accent/10" asChild>
-                <a href="https://linkedin.com/in/raksharamesh" className="flex items-center gap-3">
+                <a href="https://linkedin.com/in/raksha-ramesh" className="flex items-center gap-3">
                   <Linkedin className="w-4 h-4" />
                   Professional Network
                 </a>
