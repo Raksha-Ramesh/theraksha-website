@@ -182,7 +182,7 @@ export default function HomePage() {
                 </a>
               </Button>
               <Button variant="outline" className="w-full justify-start bg-transparent hover:bg-accent/10" asChild>
-                <a href="https://rakshathinksthoughts.substack.com" className="flex items-center gap-3">
+                <a href="https://rakshathinksthoughts.substack.com/" className="flex items-center gap-3">
                   <NotebookPenIcon className="w-4 h-4" />
                   Personal Blog
                 </a>
