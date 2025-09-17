@@ -61,9 +61,11 @@ export default function CurriculumVitaePage() {
                   </div>
                   <p className="font-medium text-primary mb-2">Crum & Forster • Philadelphia, PA</p>
                   <ul className="newspaper-body space-y-2 list-disc ml-5">
-                    <li>Migrated 30+ high-traffic DS microservices from Pony ORM to a custom SQL context manager, resolving schema inconsistencies and validating parity through reusable checklists.</li>
-                    <li>Built OCR pipeline for 5,000+ environmental supplemental applications with &gt;95% classification accuracy using AWS Step Functions and LLM-based markdown extraction — reduced manual review time by 70%.</li>
-                    <li>Designed multi-environment deployment with smoke testing and zero-downtime rollouts; added monitoring for error rate, latency, and cost.</li>
+                    <li>Built an OCR pipeline (93% accuracy, 320+ apps/month) consulting with senior stakeholders, cutting review time by ~10 minutes/file and speeding underwriting by 20%.</li>
+                    <li>Decommissioned Pony ORM in 10 production microservices, implementing SQL context managers that eliminated connection
+                      issues, boosted performance by 20%, and improved reliability for 50+ business users.</li>
+                    <li>Created an automated API validation tool (10 services, 500+ payloads) that reduced testing by ~30 minutes/service, standardized
+                      edge-case coverage, and earned team-wide recognition.</li>
                   </ul>
                   <div className="flex flex-wrap gap-2 mt-3">
                     <Badge variant="secondary">Python</Badge>
@@ -82,10 +84,11 @@ export default function CurriculumVitaePage() {
                   </div>
                   <p className="font-medium text-primary mb-2">Walmart Global Tech • Bangalore, India</p>
                   <ul className="newspaper-body space-y-2 list-disc ml-5">
-                    <li>Maintained 20+ mission-critical microservices for Walmart US e-commerce.</li>
-                    <li>Cut outages by 15% (~$15M savings) by implementing rate limiting across high-traffic services; evangelized to 90+ engineers.</li>
-                    <li>Reduced incident MTTR by 40% by integrating OpenTelemetry distributed tracing.</li>
-                    <li>Resolved 20+ P0/P1 incidents in follow-the-sun rotations.</li>
+                    <li>Maintained 5 critical microservices for Walmart US e-commerce, ensuring 2M+ daily transactions ran with 99.9% availability.</li>
+                    <li>Led rate limiting rollout validated with peak-traffic simulations and architect reviews; first to implement, cutting outages by 15%
+                      (~$15M) and publishing a blueprint adopted org-wide.</li>
+                    <li>Spearheaded integration of OpenTelemetry distributed tracing into service workflows, reducing incident resolution time by 20%
+                      and enabling faster root-cause analysis across the team.</li>
                   </ul>
                   <div className="flex flex-wrap gap-2 mt-3">
                     <Badge variant="secondary">JavaScript</Badge>
@@ -104,9 +107,12 @@ export default function CurriculumVitaePage() {
                   </div>
                   <p className="font-medium text-primary mb-2">Walmart Global Tech • Bangalore, India</p>
                   <ul className="newspaper-body space-y-2 list-disc ml-5">
-                    <li>Integrated PowerSport Category vehicles into catalogs, enabling targeted filtering and improving journeys — +10% conversions.</li>
-                    <li>Built & maintained Grafana + Splunk dashboards for 5 microservices, accelerating detection and boosting uptime.</li>
-                    <li>Led testing and deployment of two production services with QA & product for low-downtime launches.</li>
+                    <li>Designed and built end-to-end integration of PowerSport Category vehicles into product catalogs, adding 1,200+ products and
+                      enabling targeted filtering that improved discoverability by 25%.</li>
+                    <li>Built and maintained Grafana and Splunk dashboards for 5 microservices, reducing detection time for service issues by 40% and
+                      improving uptime reliability.</li>
+                    <li>Orchestrated testing and deployment of 2 production services, aligning QA, product, and engineering teams to ensure seamless
+                      launches with minimal downtime.</li>
                   </ul>
                   <div className="flex flex-wrap gap-2 mt-3">
                     <Badge variant="secondary">JavaScript</Badge>
@@ -124,9 +130,10 @@ export default function CurriculumVitaePage() {
                   </div>
                   <p className="font-medium text-primary mb-2">Ellipses Innovation • Bangalore, India</p>
                   <ul className="newspaper-body space-y-2 list-disc ml-5">
-                    <li>Developed data-driven Instagram strategy via engagement and audience analysis.</li>
-                    <li>Increased follower growth 35% and generated first recurring sales (20+ orders/week).</li>
-                    <li>Ran competitor benchmarking to refine content mix, cadence, and timing.</li>
+                    <li>Developed data-driven Instagram marketing strategy by analyzing engagement metrics and audience demographics — increasing
+                      follower growth by 35% and generating the company’s first recurring sales (20+ orders/week).</li>
+                    <li>Conducted competitor benchmarking and market research to refine content mix, posting frequency, and optimal posting times,
+                      improving campaign engagement rates.</li>
                   </ul>
                   <div className="flex flex-wrap gap-2 mt-3">
                     <Badge variant="secondary">Analytics</Badge>
@@ -181,35 +188,35 @@ export default function CurriculumVitaePage() {
 
               <div className="space-y-4">
                 {/* DreamBook */}
-                <ProjectItem title="DreamBook — AI Diary Platform" tags={["Python","Stable Diffusion","Google Cloud","Gradio"]} reportUrl="/project-reports/CV_Report.pdf">
+                <ProjectItem title="DreamBook — AI Diary Platform" tags={["Python", "Stable Diffusion", "Google Cloud", "Gradio"]} reportUrl="/project-reports/CV_Report.pdf">
                   Built AI diary platform digitizing handwritten, audio, and text entries using Google Cloud Vision, Speech-to-Text, and Stable Diffusion (DreamBooth + LoRA) — producing consistent comic-style illustrations.
                 </ProjectItem>
 
                 {/* EEG IEEE */}
-                <ProjectItem title="Segment Based Abnormality Detection in EEG Recordings (IEEE, Aug 2022)" tags={["Python","Machine Learning","Signal Processing","IEEE Publication"]} reportUrl="/project-reports/Capstone_Report.pdf">
-                <div className="mt-2">
-    <Link href="https://ieeexplore.ieee.org/document/9848243" target="_blank" className="inline-flex items-center gap-1 text-sm underline">
-      <LinkIcon className="w-3 h-3" /> View Publication
-    </Link>
-  </div>
-  <span>
-    Achieved 90.78% classification accuracy (surpassing SOTA) using Empirical Wavelet Transform, Recursive Feature Elimination, and Linear SVM.
-  </span>
-  
-</ProjectItem>
+                <ProjectItem title="Segment Based Abnormality Detection in EEG Recordings (IEEE, Aug 2022)" tags={["Python", "Machine Learning", "Signal Processing", "IEEE Publication"]} reportUrl="/project-reports/Capstone_Report.pdf">
+                  <div className="mt-2">
+                    <Link href="https://ieeexplore.ieee.org/document/9848243" target="_blank" className="inline-flex items-center gap-1 text-sm underline">
+                      <LinkIcon className="w-3 h-3" /> View Publication
+                    </Link>
+                  </div>
+                  <span>
+                    Achieved 90.78% classification accuracy (surpassing SOTA) using Empirical Wavelet Transform, Recursive Feature Elimination, and Linear SVM.
+                  </span>
+
+                </ProjectItem>
 
                 {/* BART-to-Edge */}
-                <ProjectItem title="BART-to-Edge Translation" tags={["PyTorch","LoRA","Edge Computing","NLP"]} reportUrl="/project-reports/NLP_Report.pdf">
+                <ProjectItem title="BART-to-Edge Translation" tags={["PyTorch", "LoRA", "Edge Computing", "NLP"]} reportUrl="/project-reports/NLP_Report.pdf">
                   Optimized mBART/M2M100 with LoRA and layer freezing, reducing GPU memory by 50% and training time by 30%; enabled sub-1B parameter real-time Zh↔En translation on edge devices.
                 </ProjectItem>
 
                 {/* Lexical Simplification */}
-                <ProjectItem title="Lexical Simplification" tags={["NLTK","gensim","pandas","Accessibility"]} reportUrl="/project-reports/LexicalSimplification_Report.pdf">
+                <ProjectItem title="Lexical Simplification" tags={["NLTK", "gensim", "pandas", "Accessibility"]} reportUrl="/project-reports/LexicalSimplification_Report.pdf">
                   Contextual word substitution pipeline improving text accessibility — reduced reading complexity by ~20% and improved comprehension in testing via POS tagging and frequency-based filtering.
                 </ProjectItem>
 
                 {/* Text Summarization */}
-                <ProjectItem title="Deep Learning for Text Summarization" tags={["ROUGE","BLEU","Abstractive","Extractive"]} reportUrl="/project-reports/Miniproject_Report.pdf">
+                <ProjectItem title="Deep Learning for Text Summarization" tags={["ROUGE", "BLEU", "Abstractive", "Extractive"]} reportUrl="/project-reports/Miniproject_Report.pdf">
                   Implemented extractive and abstractive pipelines; abstractive models improved semantic coherence while reducing repetition by ~25%.
                 </ProjectItem>
               </div>
@@ -225,13 +232,13 @@ export default function CurriculumVitaePage() {
                 <div className="newspaper-divider" />
               </div>
               <div className="space-y-4">
-                <ProjectItem title="Optimizing ANN for Learned Cardinalities" tags={["PyTorch","Depp Learning","MLSE","Cardinality Estimation"]} reportUrl="/project-reports/AdvDB_Report.pdf">
+                <ProjectItem title="Optimizing ANN for Learned Cardinalities" tags={["PyTorch", "Depp Learning", "MLSE", "Cardinality Estimation"]} reportUrl="/project-reports/AdvDB_Report.pdf">
                   Tuned MSCN-based learned cardinality estimator; selected Adam + MLSE for smoother convergence, lowering median Q-error and standardizing workflows.
                 </ProjectItem>
-                <ProjectItem title="World Development Indicators Analysis" tags={["Regression","multi-disiplinary","Macroeconomics","RMSE"]} reportUrl="/project-reports/DataAnalytics_Report.pdf">
+                <ProjectItem title="World Development Indicators Analysis" tags={["Regression", "multi-disiplinary", "Macroeconomics", "RMSE"]} reportUrl="/project-reports/DataAnalytics_Report.pdf">
                   Modeled macro growth with regression on World Bank WDI data; achieved RMSE 2.7% (developed) and 4.3% (developing), producing sector-driven insights.
                 </ProjectItem>
-                <ProjectItem title="YACS — Yet Another Centralized Scheduler" tags={["Python","Sockets","Multithreading","Map-Reduce"]} reportUrl="/project-reports/BigData_Report.pdf">
+                <ProjectItem title="YACS — Yet Another Centralized Scheduler" tags={["Python", "Sockets", "Multithreading", "Map-Reduce"]} reportUrl="/project-reports/BigData_Report.pdf">
                   Built master–worker scheduler with Random, RR, and Least-Loaded policies; added map-reduce dependencies and back-pressure to reduce idle CPU time.
                 </ProjectItem>
               </div>
@@ -247,13 +254,13 @@ export default function CurriculumVitaePage() {
                 <div className="newspaper-divider" />
               </div>
               <div className="space-y-4">
-                <ProjectItem title="PennOS — Custom Operating System" tags={["C","FAT FS","MLFQ","Concurrency"]} reportUrl="/project-reports/PennOS_Report.pdf">
+                <ProjectItem title="PennOS — Custom Operating System" tags={["C", "FAT FS", "MLFQ", "Concurrency"]} reportUrl="/project-reports/PennOS_Report.pdf">
                   UNIX-like OS with FAT filesystem, multi-level feedback queue scheduler, and preemptive user-space threading. Custom shell with built-ins and process control syscalls.
                 </ProjectItem>
-                <ProjectItem title="Mini-Compiler for JavaScript" tags={["C","Lexing","Parsing","Three-Address Code"]} reportUrl="/project-reports/CompilerDesign_Report.pdf">
+                <ProjectItem title="Mini-Compiler for JavaScript" tags={["C", "Lexing", "Parsing", "Three-Address Code"]} reportUrl="/project-reports/CompilerDesign_Report.pdf">
                   Compiler for a JavaScript subset implementing lexical, syntax, and semantic analysis; generated optimized 3-address code with constant folding and DCE; scoped symbol table and type checking.
                 </ProjectItem>
-                <ProjectItem title="Elevator Control System" tags={["C","Data Structures"]} reportUrl="/project-reports/ElevatorSystem_Report.pdf">
+                <ProjectItem title="Elevator Control System" tags={["C", "Data Structures"]} reportUrl="/project-reports/ElevatorSystem_Report.pdf">
                   C-based simulation using an ordered doubly linked list for prioritized floor requests; direction-aware scheduling reduced average wait times.
                 </ProjectItem>
               </div>
@@ -286,12 +293,12 @@ export default function CurriculumVitaePage() {
               </h3>
               <div className="newspaper-divider mb-4" />
               <div className="space-y-4">
-                <SkillBlock title="Programming" items={["Python","TypeScript","Node.js","C","GraphQL","Git","Postman","CI/CD","JIRA","Confluence","Tableau"]} />
-                <SkillBlock title="AI & Machine Learning" items={["PyTorch","NumPy","pandas","scikit-learn","EWT","EMD","RFE","LoRA","DreamBooth","Stable Diffusion","BLEU","BERTScore"]} />
-                <SkillBlock title="Cloud & Infrastructure" items={["AWS (CDK, Textract, Bedrock, BDA, Step Functions)","Serverless Framework","Google Cloud Vision","Speech-to-Text","Kubernetes","Istio"]} />
-                <SkillBlock title="Data Eng. & Observability" items={["SQL","Pony ORM","Grafana","Splunk","Prometheus","OpenTelemetry","Jaeger"]} />
-                <SkillBlock title="Systems & Compilers" items={["FAT filesystem","Multi-level feedback queue scheduler"]} />
-                <SkillBlock title="Product & Collaboration" items={["Agile/Scrum","MVP development","User research","A/B testing"]} />
+                <SkillBlock title="Programming" items={["Python", "TypeScript", "Node.js", "C", "GraphQL", "Git", "Postman", "CI/CD", "JIRA", "Confluence", "Tableau"]} />
+                <SkillBlock title="AI & Machine Learning" items={["PyTorch", "NumPy", "pandas", "scikit-learn", "EWT", "EMD", "RFE", "LoRA", "DreamBooth", "Stable Diffusion", "BLEU", "BERTScore"]} />
+                <SkillBlock title="Cloud & Infrastructure" items={["AWS (CDK, Textract, Bedrock, BDA, Step Functions)", "Serverless Framework", "Google Cloud Vision", "Speech-to-Text", "Kubernetes", "Istio"]} />
+                <SkillBlock title="Data Eng. & Observability" items={["SQL", "Pony ORM", "Grafana", "Splunk", "Prometheus", "OpenTelemetry", "Jaeger"]} />
+                <SkillBlock title="Systems & Compilers" items={["FAT filesystem", "Multi-level feedback queue scheduler"]} />
+                <SkillBlock title="Product & Collaboration" items={["Agile/Scrum", "MVP development", "User research", "A/B testing"]} />
               </div>
             </Card>
 
